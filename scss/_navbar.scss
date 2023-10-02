@@ -1,0 +1,211 @@
+// /* nav bg */
+
+// position: absolute;
+// width: 1440px;
+// height: 130px;
+// left: 0px;
+// top: 0px;
+
+// background: #333F48;
+// /* Frame 2 */
+
+// /* Auto layout */
+// display: flex;
+// flex-direction: row;
+// align-items: center;
+// padding: 0px;
+// gap: 30px;
+
+// position: absolute;
+// width: 356px;
+// height: 22px;
+// left: 964px;
+// top: 14px;
+
+
+
+// /* search */
+
+// width: 16px;
+// height: 16px;
+
+
+// /* Inside auto layout */
+// flex: none;
+// order: 0;
+// flex-grow: 0;
+
+
+// /* Vector */
+
+// position: absolute;
+// left: 0%;
+// right: 0.01%;
+// top: 0%;
+// bottom: -0.01%;
+
+// background: #FFFFFF;
+
+
+// /* 02 8218 8778 */
+
+// width: 100px;
+// height: 22px;
+
+// font-family: 'Open Sans';
+// font-style: normal;
+// font-weight: 600;
+// font-size: 16px;
+// line-height: 22px;
+// /* identical to box height */
+
+// color: #FFFFFF;
+
+
+// /* Inside auto layout */
+// flex: none;
+// order: 1;
+// flex-grow: 0;
+
+
+// /* Rectangle 4 */
+
+// width: 1px;
+// height: 16px;
+
+// background: #FFFFFF;
+
+// /* Inside auto layout */
+// flex: none;
+// order: 2;
+// flex-grow: 0;
+
+
+// /* XYZ@count.com.au */
+
+// width: 149px;
+// height: 22px;
+
+// font-family: 'Open Sans';
+// font-style: normal;
+// font-weight: 600;
+// font-size: 16px;
+// line-height: 22px;
+// /* identical to box height */
+
+// color: #FFFFFF;
+
+
+// /* Inside auto layout */
+// flex: none;
+// order: 3;
+// flex-grow: 0;
+
+// /* nav-top orange */
+
+// position: absolute;
+// width: 1440px;
+// height: 50px;
+// left: 0px;
+// top: 0px;
+
+// filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.16));
+
+
+// /* blue */
+
+// position: absolute;
+// width: 550px;
+// height: 50px;
+// left: 885px;
+// top: 0px;
+
+// background: #00A6DC;
+
+
+// /* Union */
+
+// position: absolute;
+// width: 1440px;
+// height: 50px;
+// left: 0px;
+// top: 0px;
+
+// background: #EC8403;
+#navbar {
+  .orangeNav {
+    height: 50px;
+    background-color: #EC8403;
+
+
+
+  }
+
+  .nav {
+
+    background-color: #333F48;
+
+    img {
+      height: 92px;
+      position: absolute;
+      top: -40px;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url(../img/ham.svg);
+      color: white;
+    }
+  }
+
+  .navbar-toggler:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .nav-link {
+    color: white;
+
+    &:hover {
+      color: #00A6DC;
+    }
+
+    @include md {
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    @include lg {
+      display: inline-block;
+      margin-left: 40px;
+    }
+
+    @include xl {
+      display: inline-block;
+      margin-left: 60px;
+    }
+  }
+
+}
+
+// /* oange */
+
+// position: absolute;
+// width: 550px;
+// height: 50px;
+// left: 890px;
+// top: 0px;
+
+// /* primary orange */
+// background: #EC8403;
+
+
+// /* top - orange line */
+
+// position: absolute;
+// width: 1440px;
+// height: 4px;
+// left: 0px;
+// top: 0px;
+
+// /* primary orange */
+// background: #EC8403;

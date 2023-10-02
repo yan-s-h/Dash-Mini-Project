@@ -1,0 +1,111 @@
+#navbar .orangeNav {
+  height: 50px;
+  background-color: #EC8403;
+}
+#navbar .nav {
+  background-color: #333F48;
+}
+#navbar .nav img {
+  height: 92px;
+  position: absolute;
+  top: -40px;
+}
+#navbar .nav .navbar-toggler-icon {
+  background-image: url(../img/ham.svg);
+  color: white;
+}
+#navbar .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#navbar .nav-link {
+  color: white;
+}
+#navbar .nav-link:hover {
+  color: #00A6DC;
+}
+@media (min-width: 768px) {
+  #navbar .nav-link {
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #navbar .nav-link {
+    display: inline-block;
+    margin-left: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  #navbar .nav-link {
+    display: inline-block;
+    margin-left: 60px;
+  }
+}
+
+#banner .container-fluid {
+  background-image: url(../img/banner.jpeg);
+  aspect-ratio: 24/10;
+  background-size: cover;
+  background-position: center top;
+  min-height: 300px;
+}
+#banner .bannerText {
+  color: #173045;
+  width: 325px;
+  height: 134px;
+  position: absolute;
+}
+#banner .bannerText h1 {
+  font-size: 70px;
+}
+#banner .bannerIntro {
+  width: 410px;
+  height: 476px;
+  background: rgba(236, 132, 3, 0.7);
+  padding: 36px 60px;
+  position: absolute;
+}
+#banner .bannerIntro p {
+  font-size: 46px;
+  color: white;
+}
+#banner .bannerIntro .btn-outline-white {
+  color: white;
+  border-color: white;
+  border-radius: 0;
+  width: 172px;
+}
+#banner .bannerIntro .btn-outline-white svg {
+  width: 12px;
+  height: 12px;
+  fill: white;
+}
+#banner .bannerIntro .btn-outline-white:hover {
+  color: rgba(236, 132, 3, 0.9);
+  background-color: white;
+}
+#banner .bannerIntro .btn-outline-white:hover svg {
+  fill: #ec8403;
+}
+@media (min-width: 1200px) {
+  #banner .bannerText {
+    width: 325px;
+    height: 134px;
+  }
+  #banner .bannerText h1 {
+    font-size: 70px;
+  }
+  #banner .bannerIntro {
+    width: 410px;
+    height: 476px;
+    right: 2%;
+    padding: 36px 60px;
+  }
+  #banner .bannerIntro p {
+    font-size: 46px;
+  }
+  #banner .bannerIntro .btn-outline-white {
+    width: 172px;
+  }
+}
