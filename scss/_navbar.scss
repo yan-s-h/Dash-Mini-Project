@@ -1,7 +1,26 @@
 #navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
   .orangeNav {
     height: 50px;
-    background-color: #EC8403;
+    background-color: white;
+    padding: 0;
+
+    .line {
+      height: 4px;
+      width: 100%;
+      background-color: #EC8403;
+    }
+
+    .navTag {
+      height: 46px;
+      width: 100%;
+      background: linear-gradient(45deg, #333F48 0% 60.5%, #00A6DC 60.5% 61%, #EC8403 61% 100%);
+    }
   }
 
   .nav {
