@@ -233,6 +233,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -250,4 +251,119 @@
   fill: #EC8403;
   width: 12px;
   height: 12px;
+}
+
+#articles {
+  position: relative;
+}
+#articles .shadow {
+  outline: 30px solid #f2f2f2;
+  --bs-gutter-x: 0rem;
+}
+#articles .shadow .col-12 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+#articles .shadow .col-12 img {
+  -o-object-position: left;
+     object-position: left;
+}
+#articles .card {
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+#articles .card:hover img {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+#articles .card:hover .detail-text {
+  opacity: 1;
+}
+#articles img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#articles .col-12 .detail-text {
+  top: 29%;
+  left: calc(50% - 56px);
+}
+#articles .detail-text {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: calc(50% - 13px);
+  left: calc(50% - 56px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+#articles .col-lg .card {
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843);
+          box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843);
+}
+#articles .card-text {
+  text-overflow: ellipsis;
+}
+#articles .btn-outline-orange {
+  border-color: #EC8403;
+  border-radius: 0;
+  margin: auto;
+}
+#articles .btn-outline-orange svg {
+  fill: #EC8403;
+  width: 12px;
+  height: 12px;
+}
+#articles .btn-outline-orange:hover {
+  background-color: #EC8403;
+  color: white;
+}
+#articles .btn-outline-orange:hover svg {
+  fill: white;
+}
+@media (min-width: 768px) {
+  #articles .col-12 .detail-text {
+    top: 34.5%;
+  }
+}
+@media (min-width: 992px) {
+  #articles .col-12 img {
+    max-height: 276px;
+  }
+  #articles .col-12 .detail-text {
+    top: 45%;
+    left: 16%;
+  }
+  #articles .col-lg .card-title {
+    height: 84px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (min-width: 1200px) {
+  #articles .col-12 .detail-text {
+    left: 14%;
+  }
+}
+@media (min-width: 1400px) {
+  #articles .col-12 .detail-text {
+    left: 12%;
+  }
 }
