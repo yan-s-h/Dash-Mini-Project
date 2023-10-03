@@ -1,0 +1,53 @@
+#testimonials {
+  h1 {
+    color: #333F48;
+  }
+
+  .carousel-indicators {
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: end;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 15%;
+    list-style: none;
+
+    button {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+
+    }
+
+
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: white;
+    opacity: 1;
+  }
+
+  .carousel-indicators .active {
+    opacity: 1;
+    background-color: #EC8403;
+  }
+
+  #carouselExampleIndicators {
+    background-color: #333F48;
+    color: white;
+    padding: 1rem;
+    box-shadow: 12px 12px 0px #EC8403;
+
+    h1 {
+      color: #EC8403;
+    }
+  }
+
+
+}
