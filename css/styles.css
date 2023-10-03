@@ -155,11 +155,9 @@
   text-align: center;
   margin-bottom: 2rem;
 }
-#aboutUs span {
+#aboutUs a {
+  text-decoration: none;
   color: #EC8403;
-}
-#aboutUs span:hover {
-  cursor: pointer;
 }
 #aboutUs svg {
   fill: #EC8403;
@@ -187,4 +185,69 @@
     margin-bottom: 0;
     margin-left: 2rem;
   }
+}
+
+#services {
+  background: #F2F2F2;
+  padding: 2rem 0;
+}
+#services h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+#services .card {
+  padding: 1rem;
+  height: 100%;
+}
+#services .card:hover {
+  background-color: #333F48;
+  color: white;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+#services .card:hover img {
+  -webkit-filter: invert(100);
+          filter: invert(100);
+}
+#services .card:hover .btn-outline-orange {
+  background-color: #EC8403;
+  color: white;
+}
+#services .card:hover .btn-outline-orange svg {
+  fill: white;
+}
+#services .card .card-img-top {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+#services .card .card-title {
+  font-weight: bold;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#services .card .card-text {
+  margin: 1rem 0;
+  height: 80px;
+}
+#services .card .btn-outline-orange {
+  border-color: #EC8403;
+  border-radius: 0;
+  margin: auto;
+}
+#services .card .btn-outline-orange svg {
+  fill: #EC8403;
+  width: 12px;
+  height: 12px;
 }
